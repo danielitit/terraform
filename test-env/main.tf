@@ -4,5 +4,6 @@ resource "azurerm_resource_group" "dwitkowski-test" {
 
     tags {
         environment = "dwitkowski-test-env"
+				Delete			= "no"
     }
 }
